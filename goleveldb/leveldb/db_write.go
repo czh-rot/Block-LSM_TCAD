@@ -427,10 +427,10 @@ func (db *DB) writeLocked(batch, ourBatch *Batch, merge, sync bool) error {
 	// Write journal.
 	// 2.batch中的信息写入日志，调用db.writeJournal
 	t1:=time.Now()
-	//if err := db.writeJournal(batches, seq, sync); err != nil {
-	//	db.unlockWrite(overflow, merged, err)
-	//	return err
-	//}
+	if err := db.writeJournal(batches, seq, sync); err != nil {
+		db.unlockWrite(overflow, merged, err)
+		return err
+	}
 	t2:=time.Now()
 	t3:=t2.Sub(t1).Seconds()
 	TcountPutJou += t3

@@ -1392,7 +1392,10 @@ func (db *DB) tCompaction() { //一定会执行tableAutocompaction
 			x = nil
 		}
 	//	fmt.Println("GOOD")
+		t1 := time.Now()
 		db.tableAutoCompaction()
+		t2 := time.Now()
+		TcountCom += t2.Sub(t1).Seconds()
 	}
 }
 func (db *DB) tCompaction_s() {
@@ -1468,6 +1471,9 @@ func (db *DB) tCompaction_s() {
 			}
 			x = nil
 		}
+		t1 := time.Now()
 		db.tableAutoCompaction_s()
+		t2 := time.Now()
+		TcountCom2 += t2.Sub(t1).Seconds()
 	}
 }
