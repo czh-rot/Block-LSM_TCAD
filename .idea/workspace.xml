@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="375b48e8-3757-4919-b7a9-a466cd576e03" name="Default Changelist" comment="" />
+    <list default="true" id="375b48e8-3757-4919-b7a9-a466cd576e03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAD_code/TCAD_Write_P/Write_KV_Prefix.go" beforeDir="false" afterPath="$PROJECT_DIR$/TCAD_code/TCAD_Write_P/Write_KV_Prefix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAD_code/新建文本文档.tmd" beforeDir="false" afterPath="$PROJECT_DIR$/TCAD_code/新建文本文档.tmd" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="E:/Go1.5" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2ApXI6OaWn4y2rVq3uZQsWhXrLV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,16 +24,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github.com/ethereum/go-ethereum" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -35,10 +48,24 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2594" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1655710580156" />
-    <state x="2567" y="275" width="626" height="490" key="find.popup" timestamp="1655708756691">
+    <state x="2138" y="376" key="FileChooserDialogImpl" timestamp="1656383685837">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2138" y="376" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1656383685837" />
+    <state x="388" y="208" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1655866039630" />
+    <state x="2383" y="165" key="SettingsEditor" timestamp="1655713595912">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2383" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1655713595912" />
+    <state x="2284" y="497" width="626" height="886" key="find.popup" timestamp="1656382512456">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2284" y="497" width="626" height="886" key="find.popup/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1656382512456" />
     <state x="2567" y="275" width="626" height="490" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1655708756691" />
+    <state x="2472" y="182" key="scopes" timestamp="1655713675943">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="182" key="scopes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1655713675943" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1655710688204">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

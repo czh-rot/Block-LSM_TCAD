@@ -13,14 +13,11 @@ import (
 	"io"
 	"os"
 	"time"
-
-	//"syndtr/goleveldb/leveldb"
 )
 var(
 	key []byte
 	value []byte
 	WriteTime float64
-	temp []byte
 	t3 time.Time
 	t4 time.Time
 	t float64
