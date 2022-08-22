@@ -459,7 +459,7 @@ func TestAccountRandom(t *testing.T){
 		str:=s1.Text()
 		key, _ := hex.DecodeString(str[:])
 		// 插入MPT
-		if Accnumber % 5 == 0{
+		if Accnumber % 50 == 0{
 			Acchash[Count_Acc] = key
 			Count_Acc++
 		}
@@ -473,19 +473,24 @@ func TestAccountRandom(t *testing.T){
 	number := 0
 	rand.Seed(0)
 	LoopCnt = 1000000
+	var total_st float64
 	for i := 0; i < LoopCnt; i++{
 		// 假设10个kv对为1次read account
+		st1 := time.Now()
 		for j := 0; j < 10; j++ {
 			m := rand.Intn(10000000)
 			ac = Acchash[m]
 			db.Get(ac)
 			number++
 		}
+		st2 := time.Now()
+		total_st += st2.sub(st1).Seconds()
 		if i % 1000000 == 0{
 			log2.Println(i)
 		}
 	}
 	fmt.Println(Count)
+	fmt.Println("TPS: ", total_st/float64(LoopCnt))
 	runtime.GC()
 }
 
